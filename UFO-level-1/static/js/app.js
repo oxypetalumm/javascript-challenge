@@ -27,7 +27,9 @@ function runEnter() {
   buildTable(data);
 }
 
+// filter button
 var button = d3.select("#filter-btn");
 button.on("click", runEnter);
 
+// render the table
 buildTable(tableData);
